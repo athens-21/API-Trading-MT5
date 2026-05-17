@@ -14,18 +14,17 @@ webui/webui*.log
 # Lock files
 *.lock
 
-# Runtime / temp
+# Runtime / state
 yes_input.txt
-sessio
+sessions/
+trade_state.json
+trades.csv
 
 # IDE / OS
 .vscode/
 .idea/
 Thumbs.db
 .DS_Store
-
-# Claude internal
-.claude/
 
 # Credentials — never commit real config
 config.py
