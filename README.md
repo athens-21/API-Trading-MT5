@@ -1,7 +1,6 @@
-# ParanoidSignals™ 7.9-X — MT5 Algorithmic Trading Bot
+# MT5 Algorithmic Trading
 
 Automated trading bot for MetaTrader 5, built in Python.
-Runs on **BTCUSDm M15**, uses ATR-based TP/SL, and sends alerts to Discord.
 
 ---
 
