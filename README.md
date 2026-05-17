@@ -10,9 +10,10 @@ Runs on **BTCUSDm M15**, uses ATR-based TP/SL, and sends alerts to Discord.
 | File | Reason |
 |------|--------|
 | `signals.py` | Proprietary strategy logic (PurpleRain) — not distributed |
+| `indicators.py` | Proprietary indicator implementation — not distributed |
 | `config.py` | Credentials and personal settings — never committed |
 
-To run the bot you need to provide your own `signals.py` and create `config.py` from `config.example.py`.
+To run the bot you need to provide your own `signals.py`, `indicators.py`, and create `config.py` from `config.example.py`.
 
 ---
 
@@ -33,7 +34,7 @@ To run the bot you need to provide your own `signals.py` and create `config.py` 
 | `main.py` | Entry point — selects live or backtest mode |
 | `live_trader.py` | Live trading loop — bar close → signal → order |
 | `signals.py` | Signal computation interface *(not included)* |
-| `indicators.py` | Technical indicators — EMA, ATR, ADX, VWAP, Donchian |
+| `indicators.py` | Technical indicators — EMA, ATR, ADX, VWAP, Donchian *(not included)* |
 | `risk_manager.py` | TP/SL calculator and position state machine |
 | `mt5_broker.py` | MT5 connection — fetch bars, place/close/modify orders |
 | `backtest_engine.py` | Backtester — simulate trades on historical data |
