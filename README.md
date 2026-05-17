@@ -8,7 +8,7 @@ Automated trading bot for MetaTrader 5, built in Python.
 
 | File | Reason |
 |------|--------|
-| `signals.py` | Proprietary strategy logic (PurpleRain) — not distributed |
+| `signals.py` | Proprietary strategy logic — not distributed |
 | `indicators.py` | Proprietary indicator implementation — not distributed |
 | `config.py` | Credentials and personal settings — never committed |
 
