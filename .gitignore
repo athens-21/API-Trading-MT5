@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+bot_*.log
+watchdog.log
+live_out.log
+live_err.log
+webui/webui*.log
+
+# Lock files
+*.lock
+
+# Runtime / temp
+yes_input.txt
+sessio
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Claude internal
+.claude/
+
+# Credentials — never commit real config
+config.py
