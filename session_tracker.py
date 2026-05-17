@@ -7,7 +7,7 @@ Each session is saved to:  sessions/YYYYMMDD_HHMMSS_SYMBOL.json
 JSON structure
 --------------
 {
-  "session_id":      "20260322_123510_BTCUSDm",
+  "session_id":      ".....",
   "symbol":          "BTCUSDm",
   "tf":              "M5",
   "setup":           "Open/Close",
