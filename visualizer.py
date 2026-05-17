@@ -1,6 +1,5 @@
 ﻿"""
-visualizer.py — Backtest Dashboard  (ParanoidSignals™ 7.9-X)
-
+visualizer.py — Backtest Dashboard 
 Layout
 ------
   Row 0  KPI metric boxes  [full width, compact]
